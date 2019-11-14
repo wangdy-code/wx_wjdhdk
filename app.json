@@ -1,0 +1,26 @@
+{
+  "pages": [
+    "pages/location/location",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/photo/photo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "backgroundColor":"#96ff",
+    "list":[{
+      "pagePath":"pages/location/location",
+      "text":"定位打卡"
+      },{
+      "pagePath":"pages/user/user",
+      "text":"我的"
+      }]
+    },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+  }
